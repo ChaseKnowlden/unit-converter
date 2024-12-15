@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="conversion-header">
+      <h1 class="header-text">Metric/Imperial Unit Conversion</h1>
+      <div class="input-wrapper">
+        <input type="text" class="unit-input" />
+        <button class="convert-btn">Convert</button>
+      </div>
+    </div>
+    <div class="conversion-container">
+      <div class="card">
+        <h2 class="conversion-metric">Length (Meter/Feet)</h2>
+        <p class="conversion-result-ft">
+          0 meters = 0.000 feet | 0 feet = 0.000 meters
+        </p>
+      </div>
+      <div class="card">
+        <h2 class="conversion-metric">Volume (Liters/Gallons)</h2>
+        <p class="conversion-result-lb">
+          0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+        </p>
+      </div>
+      <div class="card">
+        <h2 class="conversion-metric">Mass (Kilograms/Pounds)</h2>
+        <p class="conversion-result-km">
+          0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
